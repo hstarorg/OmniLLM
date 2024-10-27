@@ -18,7 +18,8 @@
     "build:types": "tsc -p tsconfig.types.json",
     "clean": "rimraf dist",
     "test": "vitest",
-    "test:cov": "vitest --coverage"
+    "test:cov": "vitest --coverage",
+    "demo:chatbot": "cd examples/chatbot && ts-node index.ts"
   },
   "files": [
     "dist"
@@ -37,11 +38,12 @@
     "@types/node": "^22.7.7",
     "@types/qrcode-terminal": "^0.12.2",
     "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
     "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
     "vitest": "^2.1.3",
     "wechaty": "^1.20.2",
-    "wechaty-puppet-wechat4u": "^1.14.14",
-    "qrcode-terminal": "^0.12.0"
+    "wechaty-puppet-wechat4u": "^1.14.14"
   }
 }
