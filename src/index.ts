@@ -3,3 +3,6 @@ export { Models as MoonshotModels } from './llms/moonshot/models';
 
 export { OpenAILLM } from './llms/openai/OpenAILLM';
 export { Models as OpenAIModels } from './llms/openai/models';
+
+export { ClaudeLLM } from './llms/anthropic/ClaudeLLM';
+export { Models as ClaudeModels } from './llms/anthropic/models';
