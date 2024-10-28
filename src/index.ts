@@ -6,3 +6,6 @@ export { Models as OpenAIModels } from './llms/openai/models';
 
 export { ClaudeLLM } from './llms/anthropic/ClaudeLLM';
 export { Models as ClaudeModels } from './llms/anthropic/models';
+
+export { GeminiLLM } from './llms/google/GeminiLLM';
+export { Models as GeminiModels } from './llms/google/models';
